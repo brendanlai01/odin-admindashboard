@@ -1,3 +1,8 @@
+:root{
+    --shadow: 0 12px 4px -4px rgba(0, 0, 0, 0.15);
+    --purple: #9333ea;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -10,13 +15,26 @@ body{
 }
 
 .purple{
-    background-color: #9333ea;
+    background-color: var(--purple);
 }
 
 .sidebar{
     grid-area: sidebar;
     display: grid;
     grid-template-rows: 75px 300px 300px;
+}
+
+.sidebar-nav-one{
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    align-items: center;
+    list-style: none;
+}
+
+.sidebar-nav-two{
+    list-style: none;
+    display: grid;
+    grid-template-rows: repeat(3, calc(300px / 6));
 }
 
 .header{
