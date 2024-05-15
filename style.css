@@ -18,6 +18,10 @@ body{
     background-color: var(--purple);
 }
 
+.center-align{
+    align-items: center;
+}
+
 .sidebar{
     grid-area: sidebar;
     display: grid;
@@ -39,7 +43,30 @@ body{
 
 .header{
     grid-area: header;
+    display: grid;
+    grid-template: repeat(2, 75px)/ 70% 30%;
     background-color: aqua;
+}
+
+.header-searchbar{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.header-profile{
+    display: grid;
+    grid-template-columns: 50px 50px 1fr;
+}
+
+.header-big-profile{
+    display: grid;
+    grid-template-columns: 75px 1fr;
+}
+
+.header-buttons{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
 }
 
 .main-content{
