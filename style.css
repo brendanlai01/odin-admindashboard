@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template: 150px 150px calc(100vh - 300px) / 25vh 1fr;
+    grid-template-areas:
+    "sidebar header"
+    "sidebar main-content"
+    "sidebar main-content"
+}
+
+.purple{
+    background-color: #9333ea;
+}
+
+.sidebar{
+    grid-area: sidebar;
+    display: grid;
+    grid-template-rows: 75px 300px 300px;
+}
+
+.header{
+    grid-area: header;
+    background-color: aqua;
+}
+
+.main-content{
+    grid-area: main-content;
+    background-color: red;
+}
