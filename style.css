@@ -44,7 +44,7 @@ body{
 .header{
     grid-area: header;
     display: grid;
-    grid-template: repeat(2, 75px)/ 70% 30%;
+    grid-template: repeat(2, 75px)/ 75% 25%;
     background-color: aqua;
 }
 
