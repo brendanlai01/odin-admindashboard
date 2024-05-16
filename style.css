@@ -73,3 +73,8 @@ body{
     grid-area: main-content;
     background-color: red;
 }
+
+.trending-users div p > img{
+    width: 60px;
+    border-radius: 50%;
+}
