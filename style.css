@@ -72,9 +72,61 @@ body{
 .main-content{
     grid-area: main-content;
     background-color: red;
+    padding: 20px;
+    display: grid;
+    grid-template: 24px 1fr 24px 1fr / 80% 20%;
+    grid-template-areas:
+    "projects-header announcements-header"
+    "projects-cards announcements-box"
+    "projects-cards trending-header"
+    "projects-cards trending-box"
+}
+
+.projects-header{
+    grid-area: projects-header;
+}
+
+
+.projects-cards{
+    grid-area: projects-cards;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 24px;
+    margin-right: 24px;
+}
+
+.announcements-header{
+    grid-area: announcements-header;
+}
+
+.card{
+    background-color: white;
+    border-radius: 10px;
+}
+
+.announcements-box{
+    grid-area: announcements-box;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.trending-header{
+    grid-area: trending-header;
+}
+
+.trending-users{
+    grid-area: trending-box;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 2rem;
 }
 
 .trending-users div p > img{
     width: 60px;
     border-radius: 50%;
+}
+
+h2{
+    margin: 0px 0px;
 }
