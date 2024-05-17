@@ -66,6 +66,7 @@ body{
 .header-big-profile{
     display: grid;
     grid-template-columns: 75px 1fr;
+    grid-template-columns: 80px 1fr;
 }
 
 .header-big-profile img{
