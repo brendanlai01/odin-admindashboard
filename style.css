@@ -58,10 +58,18 @@ body{
     grid-template-columns: 50px 50px 1fr;
 }
 
+.header-profile img{
+    width: 40px;
+    border-radius: 50%;
+}
+
 .header-big-profile{
     display: grid;
     grid-template-columns: 75px 1fr;
 }
+
+.header-big-profile img{
+    width: 80px;
 
 .header-buttons{
     display: grid;
