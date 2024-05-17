@@ -68,6 +68,16 @@ body{
     display: grid;
     grid-template-columns: 75px 1fr;
     grid-template-columns: 80px 1fr;
+    align-items: center;
+    font-weight: bold;
+}
+
+.intro{
+    font-size: 1.2rem;
+}
+
+.intro p{
+    margin: 0px;
 }
 
 .header-big-profile img{
