@@ -105,7 +105,7 @@ body{
     background-color: red;
     padding: 20px;
     display: grid;
-    grid-template: 24px calc(50% - 24px) 24px calc(50% - 48px) / 80% 20%;
+    grid-template: 2rem calc(50% - 2rem) 2rem calc(50% - 4rem) / 80% 20%;
     grid-template-areas:
     "projects-header announcements-header"
     "projects-cards announcements-box"
