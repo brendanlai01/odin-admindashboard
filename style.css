@@ -86,8 +86,18 @@ body{
 
 .header-buttons{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(min-content, 1fr));
     gap: 15px;
+}
+
+.header-buttons button{
+    background-color: var(--purple);
+    border: none;
+    border-radius: 16px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 8px;
+    color: white;
 }
 
 .main-content{
