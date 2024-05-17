@@ -70,6 +70,8 @@ body{
 
 .header-big-profile img{
     width: 80px;
+    border-radius: 50%;
+}
 
 .header-buttons{
     display: grid;
