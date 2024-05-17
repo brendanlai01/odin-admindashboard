@@ -125,6 +125,7 @@ body{
 .projects-cards{
     grid-area: projects-cards;
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 24px;
     margin-right: 24px;
 }
