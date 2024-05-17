@@ -6,6 +6,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', 'Arial', sans-serif, system-ui;
     display: grid;
     grid-template: 150px calc(100vh - 150px) / minmax(300px, 15%) 1fr;
     grid-template-areas:
