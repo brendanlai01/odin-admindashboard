@@ -22,6 +22,10 @@ body{
     align-items: center;
 }
 
+.bold{
+    font-weight: bold;
+}
+
 .sidebar{
     grid-area: sidebar;
     display: grid;
