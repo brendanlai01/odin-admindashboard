@@ -7,10 +7,9 @@ body{
     margin: 0;
     padding: 0;
     display: grid;
-    grid-template: 150px 150px calc(100vh - 300px) / minmax(300px, 15%) 1fr;
+    grid-template: 150px calc(100vh - 150px) / minmax(300px, 15%) 1fr;
     grid-template-areas:
     "sidebar header"
-    "sidebar main-content"
     "sidebar main-content"
 }
 
@@ -95,7 +94,7 @@ body{
     background-color: red;
     padding: 20px;
     display: grid;
-    grid-template: 24px 1fr 24px 1fr / 80% 20%;
+    grid-template: 24px calc(50% - 24px) 24px calc(50% - 48px) / 80% 20%;
     grid-template-areas:
     "projects-header announcements-header"
     "projects-cards announcements-box"
