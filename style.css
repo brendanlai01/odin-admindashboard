@@ -41,6 +41,12 @@ body{
     color: white;
 }
 
+.dash-section{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+
 .dash-icon{
     width: 30px;
     height: 30px;
