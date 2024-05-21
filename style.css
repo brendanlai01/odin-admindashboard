@@ -148,10 +148,6 @@ body{
     padding: 2rem;
 }
 
-.announcements-content{
-    display: grid;
-}
-
 .text {
     overflow: hidden;
     display: -webkit-box;
