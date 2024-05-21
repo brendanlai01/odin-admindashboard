@@ -145,7 +145,7 @@ body{
     grid-area: announcements-box;
     background-color: white;
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 1rem 2rem;
 }
 
 .text {
