@@ -26,6 +26,10 @@ body{
     font-weight: bold;
 }
 
+.circle{
+    border-radius: 50%;
+}
+
 .sidebar{
     grid-area: sidebar;
     display: grid;
@@ -65,7 +69,6 @@ body{
 
 .header-profile img{
     width: 40px;
-    border-radius: 50%;
 }
 
 .header-big-profile{
@@ -85,7 +88,6 @@ body{
 
 .header-big-profile img{
     width: 60px;
-    border-radius: 50%;
 }
 
 .header-buttons{
@@ -163,7 +165,6 @@ body{
 
 .trending-users div p > img{
     width: 60px;
-    border-radius: 50%;
 }
 
 h2{
