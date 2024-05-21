@@ -152,6 +152,14 @@ body{
     display: grid;
 }
 
+.text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5; /* number of lines to show */
+            line-clamp: 2; 
+    -webkit-box-orient: vertical;
+ }
+
 .trending-header{
     grid-area: trending-header;
 }
