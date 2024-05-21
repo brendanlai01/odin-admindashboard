@@ -146,6 +146,10 @@ body{
     padding: 2rem;
 }
 
+.announcements-content{
+    display: grid;
+}
+
 .trending-header{
     grid-area: trending-header;
 }
