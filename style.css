@@ -30,6 +30,10 @@ body{
     border-radius: 50%;
 }
 
+.pfp{
+    width: 60px;
+}
+
 .sidebar{
     grid-area: sidebar;
     display: grid;
@@ -84,10 +88,6 @@ body{
 
 .intro p{
     margin: 0px;
-}
-
-.header-big-profile img{
-    width: 60px;
 }
 
 .header-buttons{
@@ -161,10 +161,6 @@ body{
     background-color: white;
     border-radius: 1rem;
     padding: 2rem;
-}
-
-.trending-users div p > img{
-    width: 60px;
 }
 
 h2{
