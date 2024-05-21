@@ -41,6 +41,11 @@ body{
     color: white;
 }
 
+.dash-icon{
+    width: 30px;
+    height: 30px;
+}
+
 .sidebar-nav-one{
     display: grid;
     grid-template-rows: repeat(6, 1fr);
