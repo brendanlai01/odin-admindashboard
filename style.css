@@ -18,6 +18,10 @@ body{
     background-color: var(--purple);
 }
 
+.sidebar-padding{
+    padding-left: 16px
+}
+
 .center-align{
     align-items: center;
 }
@@ -63,14 +67,12 @@ body{
     grid-template-rows: repeat(6, 1fr);
     align-items: center;
     list-style: none;
-    padding-left: 16px;
 }
 
 .sidebar-nav-two{
     list-style: none;
     display: grid;
     grid-template-rows: repeat(3, calc(300px / 6));
-    padding-left: 16px;
 }
 
 .header{
