@@ -103,6 +103,10 @@ body{
     padding: 2px 8px 2px 8px;
 }
 
+#searchbar:focus{
+    outline: rgb(182, 180, 180) solid 2px;
+}
+
 .header-searchbar button{
     width: 40px;
 }
