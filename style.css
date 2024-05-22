@@ -43,6 +43,10 @@ body{
     height: 30px;
 }
 
+.filter-black{
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(274deg) brightness(101%) contrast(106%);
+}
+
 .sidebar{
     grid-area: sidebar;
     display: grid;
