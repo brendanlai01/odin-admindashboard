@@ -47,6 +47,10 @@ body{
     filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(274deg) brightness(101%) contrast(106%);
 }
 
+.filter-white{
+    filter: invert(100%) sepia(1%) saturate(7482%) hue-rotate(137deg) brightness(103%) contrast(100%);
+}
+
 .sidebar{
     grid-area: sidebar;
     display: grid;
