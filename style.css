@@ -89,6 +89,7 @@ body{
     display: grid;
     grid-template: repeat(2, 75px)/ 75% 25%;
     padding: 0px 3rem 3rem;
+    box-shadow: var(--shadow);
 }
 
 .header-searchbar{
