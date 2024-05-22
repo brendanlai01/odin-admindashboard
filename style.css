@@ -100,6 +100,7 @@ body{
     background: rgb(235, 234, 234);
     border-radius: 1rem;
     font-size: 1.2rem;
+    padding: 2px 8px 2px 8px;
 }
 
 .header-searchbar button{
