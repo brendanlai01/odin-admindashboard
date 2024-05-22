@@ -212,6 +212,7 @@ body{
     background-color: white;
     border-radius: 1rem;
     padding: 1rem 2rem;
+    margin-bottom: 32px;
 }
 
 .text {
