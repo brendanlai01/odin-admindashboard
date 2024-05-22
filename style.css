@@ -215,3 +215,8 @@ body{
 h2{
     margin: 0px 0px;
 }
+
+button{
+    border: none;
+    background: none;
+}
