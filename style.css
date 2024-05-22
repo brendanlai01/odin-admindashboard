@@ -38,6 +38,11 @@ body{
     width: 60px;
 }
 
+.icon-size{
+    width: 30px;
+    height: 30px;
+}
+
 .sidebar{
     grid-area: sidebar;
     display: grid;
@@ -57,10 +62,6 @@ body{
     align-items: center;
 }
 
-.dash-icon{
-    width: 30px;
-    height: 30px;
-}
 
 .sidebar-nav-one{
     display: grid;
