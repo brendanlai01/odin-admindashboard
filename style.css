@@ -86,6 +86,9 @@ body{
     display: grid;
     grid-template-columns: auto 1fr 100px;
 }
+
+.header-searchbar button{
+    width: 40px;
 }
 
 .header-profile{
