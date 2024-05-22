@@ -84,7 +84,8 @@ body{
 
 .header-searchbar{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: auto 1fr 100px;
+}
 }
 
 .header-profile{
