@@ -109,6 +109,7 @@ body{
 
 .header-searchbar button{
     width: 40px;
+    padding: 0px;
 }
 
 .header-profile{
