@@ -69,6 +69,9 @@ body{
     height: 100%;
 }
 
+.dash-section:hover{
+    background-color: #7026b6;
+}
 
 .sidebar-nav-one{
     display: grid;
