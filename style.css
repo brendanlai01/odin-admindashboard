@@ -38,6 +38,10 @@ body{
     width: 60px;
 }
 
+.fade{
+    background-color: rgba(228, 228, 228, 0.507);
+}
+
 .icon-size{
     width: 30px;
     height: 30px;
